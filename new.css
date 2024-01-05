@@ -1,0 +1,146 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: cabin,sans-serif;
+
+}
+
+
+.banner{
+  background-image: url(software-development.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  width: 100%;
+  height: 598px;
+  position: relative;
+}
+.divHeading{
+  box-sizing: border-box;
+  display: flex;
+  margin-bottom: 20px;
+  margin-left: 28px;
+  margin-top: 40px;
+  font-size: 27px;
+}
+
+.colorHeading{
+  color:rgb(240, 69, 69);
+}
+.H-P{
+  width: 75%;
+  height: 80px;
+  color: white;
+  margin: 180px 300px;
+ padding: 20px 40px;
+  box-sizing: border-box;
+  text-align: center;
+  position: absolute;
+  font-size: 24px;
+  text-shadow: 0px 0px 10px  black;
+  font-weight: 700;
+}
+.divP{
+  width: 100%;
+  height: 150px;
+  
+  position: relative;
+  top: -20px;
+}
+
+/* <-----this is NavBar-----> */
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(113, 113, 243);
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 70px;
+  text-align:center;
+  box-sizing: border-box;
+  
+}
+
+.sidenav a {
+  box-sizing: border-box;
+  padding: 20px 0px 20px 0px;
+  text-decoration: none;
+  font-size: 25px;
+  color:white;
+  display: block;
+  transition: 0.3s;
+  align-items: center;
+
+}
+
+.sidenav a:hover{
+  color: #f1f1f1;
+  background-color:  rgba(39, 39, 237, 0.578);
+  border-radius: 10px;
+
+ 
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+ 
+}
+#closebutton:hover{
+  background-color: transparent;
+  color: white;
+}
+.span{
+  position: absolute;
+  top: 20px;
+  left: 8px;
+}
+
+
+.divA{
+  margin: 40px 0px;
+  font-weight: 750;
+
+}
+
+.logo{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.divH1{
+  margin: 5px 0px;
+  color: white;
+}
+.divH1::after{
+  display: block;
+  content: "";
+  width: 270px;
+  height: 3px;
+  background-color:white;
+  margin: 15px 17px;
+  border-radius: 5px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+@media (max-width : 425px) {
+  body{
+      width: 425px;
+      height: 425px;
+  }
+}
