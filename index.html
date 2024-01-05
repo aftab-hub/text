@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="new.css">
+</head>
+<body>
+  <section>
+    <div class="banner">
+      
+      <div class="H-P">
+        <div class="divHeading">
+          <h3> Hi, I'm Aftab </h3><br>&nbsp;
+          <h3 class="colorHeading" id="colorHeading" onwaiting="typeWriter()">Fullstack web developer</h3>
+ 
+        </div>
+        <div class="divP">
+          <p>Welcome to My Portfolio! I'm a passionate web developer with a knack for creating stunning and functional websites. With a strong foundation in both front-end and back-end development, I aim to craft immersive digital experiences that captivate users and deliver impactful results.</p>
+        </div>
+      </div>
+
+    </div>
+  <div id="mySidenav" class="sidenav">
+
+    <a href="javascript:void(0)" id="closebutton" class="closebtn" onclick="closeNav()">&times;</a>
+     <div class="divLogo">
+      <img class="logo" src="th.webp" alt="">
+     </div>
+     <div class="divH1">
+       <h1>Aftab</h1>
+     </div>
+
+    <div class="divA">
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#">Services</a>
+      <a href="#">Contact</a>
+    </div>
+  </div>
+  
+  <span class="span" style="font-size:35px;cursor:pointer;color: rgb(113, 113, 243);" onclick="openNav()">&#9776;</span>
+    
+</section>
+
+   
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "25%";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+let h = document.getElementById("colorHeading")
+
+
+
+</script>
+</body>
+</html>
